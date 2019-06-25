@@ -1,0 +1,22 @@
+$headerimage: url('../img/m-h-day.jpg');
+$font1 :'Source Sans Pro', sans-serif;
+$font2 :'Hind', sans-serif;
+$font3 :'Fresca', sans-serif;
+$buttoncolor: #699900;
+$underlinecolor:#14a0c7;
+$pagebackground: white;
+$footerbackground:#21232E;
+$secheadtext: #21232E;
+$headertextcolor:#2C2F3C;
+$bannergradient:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#4857BF), to(#499128));
+$headerandfooterfont: $font2;
+$logoletspace:3px;
+
+$cardset: (
+    "c_color": #21232E,
+    "c_border_color": #21232E,
+    "c_width": 15%,
+    "c_margin": 10px,
+    "c_border":none,
+    "c_border_rad": 5px,
+);
