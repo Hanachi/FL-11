@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = "stylesheet" href="./styles/bootstrap.min.css"/>
+  <link rel = "stylesheet/less" type="text/css" href="./styles/styles.less" />
+  <title>Homework 13 - CSS FrameWorks</title>
+</head>
+<body>
+  <header class="col-md container p-0">
+    <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+      <div class="nav-items container p-0">
+        <img src="./img/logo.png" class="img-logo" alt="logo"/>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <div class="row ml-2">
+            <a class="navbar-brand col-md text-center" href="#">Classes</a>
+            <a class="navbar-brand col-md text-center" href="#">About us</a>
+            <a class="navbar-brand col-md text-center" href="#">Contacts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <article class="article container">
+    <p class="h1 font-weight-bold border-bottom border-primary pb-3 mb-4 pt-4">Yoga Pilates</p>
+    <div class="row">
+      <img src="./img/yoga.jpg" class="col-sm-12 col-md-12 col-lg-8"/>
+      <div class="col-lg-4 aside-description">
+        <p class="h3 font-weight-bold pt-6">Class description</p>
+        <p class="yoga-info">
+          This workout uses a series of exercise routines designed to increase your core strength & improve your posture,
+          energy, & flexibility.Pilates work is powered by breath, flow, & centering.
+          By focusing on the mind-body connection & using more efficient form, this workout helps develop a stronger, leaner,
+          healthier body. Appropriate for all fitness levels.
+        </p>
+        <ul>
+          <li>One Personal Trainer</li>
+          <li>Big gym space for training</li>
+          <li>Free tools & props</li>
+          <li>Free locker</li>
+          <li>Free before / after shower</li>
+        </ul>
+      </div>
+    </div>
+    <p class="h3 font-weight-bold border-bottom border-primary pb-2 pt-4">Related classes</p>
+    <div class="row pt-2 justify-content-between">
+      <div class="col-sm-6 col-md-3 mt-3">
+        <div class="card border-0">
+          <img class="card-img-top border border-bottom-0 border-danger rounded-0" src="./img/cardio-kickbox.jpg" alt="Cardio kickboxing">
+          <p class="card-footer bg-danger rounded-0 text-center font-weight-bold">Cardio kickboxing</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 mt-3">
+        <div class="card border-0">
+          <img class="card-img-top border border-bottom-0 border-primary rounded-0" src="./img/fitness.jpg" alt="fitness">
+          <p class="card-footer bg-primary rounded-0 text-center font-weight-bold">fitness</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 mt-3">
+        <div class="card border-0">
+          <img class="card-img-top border border-bottom-0 border-warning rounded-0" src="./img/zumba.jpg" alt="zumba">
+          <p class="card-footer bg-warning rounded-0 text-center font-weight-bold">Zumba</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 mt-3">
+        <div class="card border-0">
+          <img class="card-img-top border border-bottom-0 border-success rounded-0" src="./img/bootcamp.jpg" alt="bootcamp">
+          <p class="card-footer bg-success rounded-0 text-center ">Bootcamp</p>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer font-small bg-secondary mt-5">
+      <div class="footer-copyright d-flex pl-4 text-center text-light font-weight-bold py-3">&copy; Epam Front-end lab, 2019</div>
+    </footer>
+  </article>
+  <script src = "js/jQuery.js"></script>
+  <script src = "js/popper.min.js" type = "module"></script>
+  <script src = "js/bootstrap.min.js"></script>
+  <script src = "js/less.min.js"></script>
+</body>
+</html>
