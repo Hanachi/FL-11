@@ -1,0 +1,17 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+}
+.dashboardItem {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #FCFCFC;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.smiles{
+    display: flex;
+    flex-direction: row;
+}

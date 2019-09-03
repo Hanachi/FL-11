@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.cardView {
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

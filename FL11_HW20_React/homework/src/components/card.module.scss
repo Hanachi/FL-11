@@ -1,0 +1,21 @@
+.card {
+    width: 150px;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background-color: #FCFCFC;
+}
+button {
+    height: 3vh;
+    width: 100px;
+    background-color: #0099FF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.card:nth-last-child(1){
+    width: 300px;
+}
