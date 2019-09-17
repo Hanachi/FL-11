@@ -1,0 +1,99 @@
+@import 'variables';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h1,
+h4 {
+  color: black;
+}
+h3 {
+  color: red;
+}
+section {
+  height: 100wh;
+  background-color: white;
+  font-family: sans-serif;
+}
+.score  {
+  color: white;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.score h2,p {
+  color: black;
+  font-size: $mediumSize;
+}
+.score p {
+  text-align: center;
+  color: black;
+  font-size: $smallSize;
+}
+
+.intro {
+  color: white;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: opacity 0.5s ease;
+}
+.intro h1 {
+  font-size: 50px;
+}
+.intro button,
+.match button {
+  width: 150px;
+  height: $largeSize;
+  background: none;
+  border: none;
+  color: white;
+  font-size: $smallSize;
+  background-color: $btnColor;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.match {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: opacity 0.5s ease 0.5s;
+}
+.winner {
+  color: black;
+  text-align: center;
+  font-size: $largeSize;
+}
+
+.hands,
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.computer-hand {
+  transform: rotateY(180deg);
+}
+
+div.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s 1s, opacity 1s linear;
+}
+div.fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
